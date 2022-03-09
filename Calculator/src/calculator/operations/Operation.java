@@ -15,7 +15,7 @@ public abstract class Operation {
 		this.b = b;
 	}
 	
-	//epic feature
+	//epic featre
 	public static Operation parseOperator(String o) {
 		Operation[] ops = new Operation[] {new Addition(), new Multiplication() };
 		for (Operation op : ops) {
