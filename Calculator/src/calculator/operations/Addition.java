@@ -12,6 +12,7 @@ public class Addition extends Operation{
 		return "+";
 	}
 
+	//bruh
 	@Override
 	public double calc() {
 		return a+b;
