@@ -11,7 +11,7 @@ public class Multiplication extends Operation {
 	public String getOperator() {
 		return "*";
 	}
-
+    //ae
 	@Override
 	public double calc() {
 		return a*b;
